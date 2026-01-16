@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+.main{
+margin: auto;
+width: 50%;
+padding: 10px;
+}
+#book-list{
+	width: 100%;
+	border: black 1px solid;
+}
