@@ -13,14 +13,14 @@
 		<h1 class="display-1">My<span style="color: royalblue">Book</span>List</h1>
 		</div>
 		<div class="form-group">
-			<p>Title</p><input id="titleI" style="width: 100%">
-			<p>Aurthor</p><input id="autherI" style="width: 100%">
-			<p>ISBN#</p><input id="isbnI" style="width: 100%">
+			<p>Title</p><input id="title" style="width: 100%">
+			<p>Aurthor</p><input id="auther" style="width: 100%">
+			<p>ISBN#</p><input id="isbn" style="width: 100%">
 		</div>
-		<button id="addBook" type="button" class="btn btn-primary">Add Book</button>
+		<button id="submit" type="submit" class="btn btn-primary">Add Book</button>
 	<br>
 	<br>
-	<table id=book-list>
+	<table id=book-list class="table-striped">
 		<thead>
 		<tr>
 			<th>Title</th>
@@ -30,9 +30,9 @@
 		</tr
 		</thead>
 		<thead id="thead">
-			<td id="title"></td>
-			<td id="auther"></td>
-			<td id="isbn"></td>
+			<td id="titleVV"></td>
+			<td id="autherVV"></td>
+			<td id="isbnVV"></td>
 			<td><button id="cancel" type="button" class="btn btn-danger">X</button></td>
 		</thead>
 	</table>

@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const bookList = document.getElementById("book-list")
 const main = document.getElementsByClassName("main")[0];
-const addbook = document.getElementById("addBook")
+const submit = document.getElementById("submit")
 const cancel = document.getElementById("cancel")
 const title = document.getElementById("title")
 const auther = document.getElementById("auther")
