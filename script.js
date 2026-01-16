@@ -9,12 +9,13 @@ const titleI = document.getElementById("title")
 const authorI = document.getElementById("author")
 const isbnI = document.getElementById("isbn")
 const thead = document.getElementById("thead")
+const bookList = document.getElementById("book-list");
 
 submit.addEventListener("click",()=>{
-	bookList.style.display= ""
-	titleVV.textContent = title.value
-	authorVV.textContent = author.value
-	isbnVV.textContent = isbn.value
+	bookList.style.display= "table";
+	title.textContent = titleI.value
+	author.textContent = authorI.value
+	isbn.textContent = isbnI.value
 })
 cancel.addEventListener("click",()=>{
 	thead.style.display = "none";
